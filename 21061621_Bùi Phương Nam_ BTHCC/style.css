@@ -1,0 +1,336 @@
+body{
+    padding:0px;
+    margin:0px 0px;
+    background-size: cover;
+    background-image: url(/img/6c76e4f08be8cba853a757521852a71f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+/* Header styling */
+.banner {
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Sử dụng gradient từ màu #4CAF50 đến #2196F3 từ trái sang phải */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+/* Navigation with dropdown */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333; /* Màu nền đậm */
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    position: relative;
+    font-weight: bolder;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff; /* Màu chữ trắng */
+    text-decoration: none;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #9b9b9b;
+    list-style: none;
+    padding: 0;
+    top: 100%; 
+    left: 0; 
+}
+
+.dropdown li {
+    width: 150px; 
+}
+
+.dropdown li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: #a7aaff; /* Hover effect for dropdown items */
+}
+
+nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* Dropdown menu sẽ hiển thị ở phía dưới */
+    left: 0;
+    background-color: #555; /* Màu nền dropdown menu */
+}
+
+nav ul li:hover {
+    background-color: #555; /* Màu nền khi hover */
+}
+
+
+h1 {
+    font-family: "Arial", sans-serif;  }
+    @keyframes blink {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+      }
+      
+      .blink {
+        animation: blink 1s infinite;
+      }
+      
+/* Dropdown menu styling */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    top: 100%; /* Ensures dropdown is below parent item */
+    left: 0; /* Ensures dropdown aligns with parent item */
+}
+
+.dropdown li {
+    width: 150px; /* Width of dropdown items */
+}
+
+.dropdown li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: #444; /* Hover effect for dropdown items */
+}
+
+/* Show the dropdown when hovering over the parent item */
+nav ul li:hover .dropdown {
+    display: block; /* Makes the dropdown visible on hover */
+}
+
+nav ul li:hover ul.dropdown {
+    display: block; /* Hiển thị dropdown menu khi hover */
+}
+
+nav ul li ul.dropdown li a {
+    color: #fff; /* Màu chữ trắng cho dropdown menu */
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+  
+.content-left{
+    float:left;
+    display:block;
+    padding:10px;
+
+}
+.content-tiltle h3{
+    font-size: 10px;
+    font-weight:lighter;
+
+}
+.content-1{
+    border:1px solid white;
+    background-color: white;
+}
+.content-2{
+    border:1px solid white;
+    background-color: white;
+    margin-top: 10px;
+}
+.content-3{
+    border:1px solid white;
+    background-color: white;
+    margin-top: 10px;
+}
+.content-4{
+    border:1px solid rgb(255, 255, 255);
+    background-color: white;
+    padding:20px;
+    margin:10px
+}
+.content-5{
+    border:1px solid rgb(255, 255, 255);
+    background-color: white;
+    padding:20px;
+    margin:10px
+}
+.content-6{
+    border:1px solid rgb(255, 255, 255);
+    background-color: white;
+    padding:20px;
+    margin:10px
+}
+.content-7{
+    border:1px solid rgb(255, 255, 255);
+    background-color: white;
+    padding:20px;
+    margin:10px
+}
+.video{
+    border:1px solid rgb(255, 255, 255);
+    background-color: white;
+    padding:20px;
+    margin:10px
+}
+.content-nd p{
+    text-align: left;
+    padding:5px;
+}
+.content-label{
+    width:700px;
+    height:200px;
+    
+}
+.content-label img {
+    transition: transform 0.3s; /* Thiết lập hiệu ứng chuyển đổi trong 0.3s */
+}
+
+.content-label img:hover {
+    transform: scale(1.1); /* Phóng to 110% khi hover */
+}
+.content-label p{
+    margin:10px 20px;
+    font-weight: bolder;
+}
+.content-right{
+    float:right;
+    display:block;
+    padding:50px;
+    line-height: 30px;
+    margin-top:-50px;
+    
+}
+.content-right h3{
+    font-size: 20px;
+}
+.box-0{
+    border:1px solid white;
+    
+    width:250px;
+    height:100px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+.box-0 p{
+    text-align: center;
+    border: 1px solid black;
+    width:200px;
+    height:50px;
+    margin:30px;
+
+}
+.box{
+    border:1px solid white;
+    background-color: antiquewhite;
+
+}
+.box-1 p{
+    text-align: center;
+    border: 1px solid black;
+    width:200px;
+    height:50px;
+    margin:30px;
+
+}
+.box-2 p{
+    text-align: center;
+    border: 1px solid black;
+    width:200px;
+    height:50px;
+    margin:30px;
+
+}
+.content-4 h3{
+    text-align: center;
+}
+.content-if p{
+    text-align: center;
+}
+.box-0 img {
+    text-align: center;  
+}
+.box-3 p{
+    text-align: center;
+    border: 1px solid black;
+    width:200px;
+    height:50px;
+    margin:30px;
+
+}
+
+.content-6 ul li{
+    list-style-type: none;
+}
+.content-6 ul li a{
+    text-decoration: none;
+    color:black;
+    margin:-40px;
+    font-weight: bold;
+}
+.content-6 ul li a:hover{
+    color:red;
+}
+
+.footer {
+    text-align: center;
+    display:block;
+
+    height: 50px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    margin-top: 1400px;
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        display: none; /* Initially hides the menu for smaller screens */
+        flex-direction: column; /* Stacks menu items vertically */
+    }
+
+    nav ul.open {
+        display: block; /* Shows the menu when needed */
+    }
+
+    /* Handle dropdowns for smaller screens */
+    .dropdown {
+        position: relative; /* Allows dropdown to position correctly */
+        top: auto;
+        left: auto;
+    }
+
+    aside {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
